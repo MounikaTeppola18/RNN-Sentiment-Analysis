@@ -109,6 +109,19 @@ python src/train.py --architecture rnn
 
 ---
 
+## Expected Runtime and Output Files
+
+- **Expected Runtime**: Running all model combinations on CPU may take **approximately 2 hours** for 54 combinations.  
+
+- **Output Files**:
+
+| File/Folder | Description |
+|-------------|-------------|
+| `results/metrics.csv` | Contains accuracy, F1-score, and other metrics for all model combinations. |
+| `results/plots/` | Contains generated graphs for accuracy/F1 vs. sequence length and training loss over epochs. |
+| `src/results_plot.ipynb` | Notebook for visualizing model performance and generating plots. |
+
+
 ## Notes
 
 * Make sure the dataset is in the `data/` folder before running any scripts.
