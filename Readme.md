@@ -11,7 +11,7 @@ You can experiment with **RNN, LSTM and Bidirectional LSTM** architectures and d
 ```
 
 RNN-Sentiment-Classification/
-├── data/                  # Dataset 
+├── data/                 
 │   ├──imdb_seq25.npz
 │   ├──imdb_seq50.npz
 │   ├──imdb_seq100.npz              
@@ -51,14 +51,11 @@ pip install -r requirements.txt
 
 3. **Prepare the dataset**:
 
-* The IMDb dataset is included as `dataset.zip` in the `data/` folder.
-* Unzip it:
+* The dataset link is given in the References section.
 
-```bash
-unzip data/dataset.zip -d data/
-```
+* Download it and place it in the data folder before running any scripts.
 
-* Make sure the unzipped dataset remains inside the `data/` folder.
+* Make sure the dataset remains inside the `data/` folder.
 
 ---
 
